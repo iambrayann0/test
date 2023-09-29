@@ -1,0 +1,79 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+form{
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 16px 16px 24px;
+    box-shadow: 0 2px 32px black;
+    border-radius: 4px;
+}
+h1{
+    margin-top: 0;
+    color: #555;
+    text-align: center;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #ccc;
+}
+.form-control{
+    margin-bottom: 16px;
+    input,
+    label{
+        display: block;
+    }
+    label{
+        font-size: 0.9res;
+        font-weight: 500;
+        margin-bottom: 4px;
+    }
+    input{
+        padding: 8px;
+        height: 35px;
+        border-radius: 4px;
+        width: 100%;
+        border: 2px solid #ccc;
+        background-color: white;
+    }
+}
+.btn{
+    background-color: rgb(3, 146, 230);
+    color: #fff;
+    padding: 8px 24px;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+.btn:hover{
+    background-color: #000000;
+}
+.bt{
+    display: flex;
+    align-content: space-between;
+}
+.btn2{
+    background-color: rgb(3, 146, 230); 
+    color: #fff;
+    padding: 8px 24px;
+    border-radius: 4px;
+}
+.btn2:hover{
+    background-color: black;
+}
+.btn3{
+    background-color: rgb(3, 146, 230); 
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 100%;
+    align-items: center;
+}
+mat-footer-cell{
+    margin-top: 10px;
+}
+ 
